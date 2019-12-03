@@ -1,5 +1,14 @@
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
 .App {
-  text-align: center;
+  text-align: left;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {

@@ -1,0 +1,48 @@
+.city-input {
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+  &__input-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  &__button {
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: none;
+    background:transparent;
+    border:2px solid black;
+    border-radius:6px;
+    color:black;
+    font-size:40px;
+    font-weight:600;
+    transition: all 0.2s;
+    &:hover {
+      background:white;
+      color:rgb(173, 173, 173);
+      cursor:pointer;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &__input {
+    padding: 10px 30px;
+    font-size:40px;
+    font-weight:600;
+    border:2px solid black;
+    border-radius:6px;
+    position: relative;
+    &:focus {
+      outline: none;
+    }
+  }
+  &__dropdown-container {
+    top: 69px;
+    width: 100%;
+    font-size: 22px;
+    position: absolute;
+    font-weight: 400;
+  }
+}

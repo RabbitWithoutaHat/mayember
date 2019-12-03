@@ -1,0 +1,29 @@
+.dashboard {
+  border: 1px solid black;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  &__input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%;
+  }
+  &__city-input {
+    display: flex;
+    flex-basis: 50%;
+  }
+  &__temp-range {
+    flex-basis: 40%;
+  }
+  &__city-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+
+}

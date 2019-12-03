@@ -1,0 +1,6 @@
+export const ADD_WEATHER = 'ADD_WEATHER';
+export const ADD_CITY = 'ADD_CITY'
+export const REQUESTED_WEATHER_FAILED = 'REQUESTED_WEATHER_FAILED';
+export const ADD_TEMP = 'ADD_TEMP'
+export const FETCHED_WEATHER = 'FETCHED_WEATHER';
+export const DELETE_CITY = 'DELETE_CITY'

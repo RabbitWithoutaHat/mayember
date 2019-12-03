@@ -48,7 +48,7 @@ function* getWeatherAC() {
   try {
     const state = yield select()
     console.log(state.inputCity);
-    const data = yield call(() => fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${state.inputCity}&APPID=5d5f9a5b403e1a325f0a24e8f15c8762&units=metric`));
+    const data = yield call(() => fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${state.inputCity}&APPID=YOUR_WEATHER_APIKEY&units=metric`));
     const json = yield call(() => data.json());
     console.log(json.list[0]);
 
